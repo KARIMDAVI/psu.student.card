@@ -1,0 +1,45 @@
+# 🦁 PSU 3D Student Card
+
+A high-performance, interactive 3D digital student ID card concept for Penn State University, featuring advanced CSS animations and SVG filters.
+
+![PSU Card Preview](https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg)
+*(Note: Open the HTML file to see the live 3D and lighting effects)*
+
+## ✨ Features
+
+- **⚡️ Electric Border Effect**: Uses SVG `<feTurbulence>` and `<feDisplacementMap>` filters to create a crackling, dynamic energy border that animates on hover.
+- **🎨 Dynamic Color Shifting**: smooth color transitions cycling through Penn State colors (Nittany Navy, Beaver Blue, Pugh Blue, White) using CSS `@property` and variables.
+- **🔄 3D Interaction**:
+  - **Card Flip**: Reveals the PSU shield on the back when the "Made By" tag is interacted with or via CSS hover states (customizable).
+  - **Parallax Depth**: Text and elements float at different Z-indexes (`translateZ`), creating a realistic depth effect when the card rotates.
+  - **Holographic Glow**: Layered `drop-shadow` and blur filters create a neon/electric glow effect.
+- **💎 Glassmorphism**: The "Made By" developer tag features a frosted glass look with backdrop filters.
+
+## 🛠️ Technologies Used
+
+- **HTML5**: Semantic structure and inline SVG filter definitions.
+- **CSS3**:
+  - **CSS Custom Properties (Variables)**: For theming and animation.
+  - **CSS Houdini (@property)**: To interpolate custom color variables for smooth gradients.
+  - **3D Transforms**: `perspective`, `rotateY`, `transform-style: preserve-3d`.
+  - **SVG Filters**: Advanced visual distortion effects.
+
+## 🚀 How to View
+
+1.  Clone or download this repository.
+2.  Open `codepen-html.html` in any modern web browser (Chrome/Edge/Safari/Firefox).
+    *   *Note: For the best experience with `@property` support, use a Chromium-based browser or latest Safari.*
+
+## 📂 Project Structure
+
+- `codepen-html.html`: Main structure and SVG filter definitions.
+- `codepen-css.css`: All styling, animations, and 3D logic.
+
+## 👨‍💻 Author
+
+**Karim Alsayed**
+- Student at Penn State
+- [CodePen Profile](https://codepen.io/KARIMDAVI)
+
+---
+*We Are Penn State!* 🦁
